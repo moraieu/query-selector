@@ -1,0 +1,21 @@
+{
+  "train_micro_batch_size_per_gpu": 5,
+  "gradient_accumulation_steps": 1,
+  "steps_per_print": 10,
+  "optimizer": {
+    "type": "Adam",
+    "params": {
+      "lr": 0.00005,
+      "weight_decay": 1e-2
+    }
+  },
+   "zero_optimization": {
+    "stage": 2,
+    "allgather_partitions": false,
+     "cpu_offload": false
+  },
+  "fp16": {
+    "enabled": true,
+    "loss_scale_window": 1000
+  }
+}

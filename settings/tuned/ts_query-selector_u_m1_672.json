@@ -1,0 +1,21 @@
+{
+  "data": "ETTm1",
+  "seq_len": 384,
+  "pred_len": 672,
+  "dec_seq_len": 384,
+  "hidden_size": 144,
+  "heads": 3,
+  "n_encoder_layers": 2,
+  "encoder_attention": "query_selector_0.90",
+  "n_decoder_layers": 2,
+  "decoder_attention": "full",
+  "batch_size": 32,
+  "embedding_size": 32,
+  "prediction_type": "uni",
+  "dropout": 0.05,
+  "fp16": true,
+  "deepspeed": true,
+  "iterations": 6,
+  "exps": 5,
+  "debug": false
+}

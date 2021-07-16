@@ -1,0 +1,21 @@
+{
+  "data": "ETTh1",
+  "seq_len": 168,
+  "pred_len": 336,
+  "dec_seq_len": 168,
+  "hidden_size": 128,
+  "heads": 2,
+  "n_encoder_layers": 2,
+  "encoder_attention": "query_selector_0.90",
+  "n_decoder_layers": 2,
+  "decoder_attention": "full",
+  "batch_size": 96,
+  "embedding_size": 24,
+  "prediction_type": "multi",
+  "dropout": 0.1,
+  "fp16": true,
+  "deepspeed": true,
+  "iterations": 5,
+  "exps": 5,
+  "debug": false
+}

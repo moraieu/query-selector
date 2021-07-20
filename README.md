@@ -37,3 +37,21 @@
 | ETTm1 |  672 | 1.1920 | 0.9260 | 1.1365 | 0.8572 |  **1.1273** | **0.8412** | **0.946** |
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-168)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-168?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-24)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-24?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-336)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-336?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-48)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-48?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-720)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-720?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth2-168)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-168?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth2-24)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-24?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth2-336)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-336?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth2-48)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-48?p=long-term-series-forecasting-with-query-1)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth2-720)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-720?p=long-term-series-forecasting-with-query-1)

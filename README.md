@@ -35,3 +35,5 @@
 | ETTm1 |   96 | 0.6780 | 0.6140 | 0.4641 | **0.4823** |  **0.4543** | 0.4831 | **0.670** |
 | ETTm1 |  288 | 1.0560 | 0.7860 | 0.6814 | 0.6312 |  **0.6185** | **0.5991** | **0.586** |
 | ETTm1 |  672 | 1.1920 | 0.9260 | 1.1365 | 0.8572 |  **1.1273** | **0.8412** | **0.946** |
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query-1/time-series-forecasting-on-etth1-168)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-168?p=long-term-series-forecasting-with-query-1)

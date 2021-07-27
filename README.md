@@ -1,5 +1,5 @@
 # Query Selector
-Query Selector is a sparse attention layer proposed in https://arxiv.org/pdf/2107.08687v1.pdf
+Here you can find code and data loaders for  the paper  https://arxiv.org/pdf/2107.08687v1.pdf . Query Selector is a novel approach to sparse attention Transformer algorytm that is especially suitable for long term time series forecasting
 
 # Depencency
 ```

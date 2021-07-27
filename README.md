@@ -88,3 +88,5 @@ tqdm              4.61.0
       primaryClass={cs.LG}
 }
 ```
+# Contact
+If you have any questions please contact us by email - jacek.klimek@morai.eu

@@ -1,5 +1,5 @@
 # Query Selector
-Here you can find code and data loaders for  the paper  https://arxiv.org/pdf/2107.08687v1.pdf . Query Selector is a novel approach to sparse attention Transformer algorytm that is especially suitable for long term time series forecasting
+Here you can find code and data loaders for  the paper  https://arxiv.org/pdf/2107.08687v1.pdf . Query Selector is a novel approach to sparse attention Transformer algorithm that is especially suitable for long term time series forecasting
 
 # Depencency
 ```

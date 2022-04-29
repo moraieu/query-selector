@@ -132,6 +132,7 @@ def run_iteration(model, loader, args, training=True, message = ''):
 
 
 def preform_experiment(args):
+
     model = get_model(args)
     params = list(get_params(model))
     print('Number of parameters: {}'.format(len(params)))
@@ -147,8 +148,11 @@ def preform_experiment(args):
         model.optim = Adam(params, lr=0.001)
 
     train_data, train_loader = _get_data(args, flag='train')
-
-
+    assert len(train_data.data_x[0]) == args.input_len, \
+        "Dataset contains input vectors of length {} while input_len is set to {}".format(len(train_data.data_x[0], args.input_len))
+    assert len(train_data.data_y[0]) == args.output_len, \
+        "Dataset contains output vectors of length {} while output_len is set to {}".format(
+            len(train_data.data_y[0]), args.output_len)
 
     start = time.time()
     for iter in range(1, args.iterations + 1):

@@ -1,4 +1,22 @@
-# Univariate
+# Query Selector
+Here you can find code and data loaders for  the paper  https://arxiv.org/pdf/2107.08687v1.pdf . Query Selector is a novel approach to sparse attention Transformer algorithm that is especially suitable for long term time series forecasting
+
+# Depencency
+```
+Python            3.7.9
+deepspeed         0.4.0
+numpy             1.20.3
+pandas            1.2.4
+scipy             1.6.3
+tensorboardX      1.8
+torch             1.7.1
+torchaudio        0.7.2
+torchvision       0.8.2
+tqdm              4.61.0
+```
+
+# Results on ETT dataset
+## Univariate
 | Data | Prediction len | Informer MSE | Informer MAE | Trans former MSE | Trans former MAE | Query Selector MSE | Query Selector MAE |  MSE ratio |
 | --- | ---  |  --- | --- | --- | --- | --- | --- | --- | 
 | ETTh1 |   24 | 0.0980 | 0.2470 | 0.0548 | 0.1830 |  **0.0436** | **0.1616** | **0.445** |
@@ -17,7 +35,7 @@
 | ETTm1 |  288 | 0.4010 | 0.5540 | **0.1316** | **0.2948** |  0.1548 | 0.3240 | **0.328** |
 | ETTm1 |  672 | 0.5120 | 0.6440 | **0.1728** | 0.3437 |  0.1735 | **0.3427** | **0.338** |
 
-# Multivariate
+## Multivariate
 | Data | Prediction len | Informer MSE | Informer MAE | Trans former MSE | Trans former MAE | Query Selector MSE | Query Selector MAE |  MSE ratio |
 | --- | ---  |  --- | --- | --- | --- | --- | --- | --- | 
 | ETTh1 |   24 | 0.5770 | 0.5490 | 0.4496 | 0.4788 |  **0.4226** | **0.4627** | **0.732** |
@@ -35,3 +53,40 @@
 | ETTm1 |   96 | 0.6780 | 0.6140 | 0.4641 | **0.4823** |  **0.4543** | 0.4831 | **0.670** |
 | ETTm1 |  288 | 1.0560 | 0.7860 | 0.6814 | 0.6312 |  **0.6185** | **0.5991** | **0.586** |
 | ETTm1 |  672 | 1.1920 | 0.9260 | 1.1365 | 0.8572 |  **1.1273** | **0.8412** | **0.946** |
+
+## State Of Art
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth1-24)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-24?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth1-48)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-48?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth1-168)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-168?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth1-336)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-336?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth1-720)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-720?p=long-term-series-forecasting-with-query)
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth2-24)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-24?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth2-48)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-48?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth2-168)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-168?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth2-336)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-336?p=long-term-series-forecasting-with-query)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-term-series-forecasting-with-query/time-series-forecasting-on-etth2-720)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-720?p=long-term-series-forecasting-with-query)
+
+# Citation
+```
+@misc{klimek2021longterm,
+      title={Long-term series forecasting with Query Selector -- efficient model of sparse attention}, 
+      author={Jacek Klimek and Jakub Klimek and Witold Kraskiewicz and Mateusz Topolewski},
+      year={2021},
+      eprint={2107.08687},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+# Contact
+If you have any questions please contact us by email - jacek.klimek@morai.eu

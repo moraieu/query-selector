@@ -59,7 +59,7 @@ class Config:
         if self.prediction_type == 'uni':
             sys.argv.extend(["--features", 'S'])
             sys.argv.extend(["--input_len", '1', "--output_len", "1"])
-        elif self.prediction_type == 'ms':
+        elif self.prediction_type == 'multiuni':
             sys.argv.extend(["--features", 'MS'])
             sys.argv.extend(["--input_len", '7', "--output_len", "1"])
         elif self.prediction_type == 'multi':
